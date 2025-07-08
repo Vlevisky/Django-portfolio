@@ -1,0 +1,77 @@
+body {
+  background-color: #a5cafc;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+#profile-wrapper {
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+
+}
+
+.card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-weight: 600;
+}
+
+.social-links {
+  padding: 0;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.social-links li {
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.social {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.2s ease;
+}
+
+.social:hover {
+  transform: scale(1.30);
+}
+
+.skill-bar {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.skill-level {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: #ddd;
+}
+
+.skill-level.filled {
+  background-color: #007bff; 
+}

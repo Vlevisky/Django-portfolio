@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Davi Paiao</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="{% static '/css/main.css' %}">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-4">
+        <div id="profile-wrapper" class="card">
+          <img id="profile-pic" src="{% static 'images/pfp.jpg' %}" alt="Profile picture" />
+          <h4>Hi, I'm Davi!</h4>
+          <p>I'm really into coding, learning new languages, and taking on challenges.</p>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+
+        <div class="card card-body">
+          <h4>About Me</h4>
+          <hr />
+          <p>I’m 19 years old and based in São Paulo, Brazil.</p>
+          <p>
+            I started learning programming and logic at a young age, and ever since, I’ve been diving deeper to improve and challenge myself. I genuinely enjoy tough challenges whether it’s coding or picking up a new language, I like to go straight for what’s useful or hard, just to prove I can do it.
+          </p>
+          <p>
+            I can code in Java, Python, C++, JavaScript, React, Django, and Lua. Depending on the stack, I’d say I’m at a junior to mid-level, and I’ve also picked up skills in UX design, messaging systems, and more.
+          </p>
+
+          <ul class="social-links">
+            <li>
+              
+                <a href="https://github.com/Vlevisky" target="_blank" rel="noopener noreferrer">
+                <img class="social" src="{% static 'images/github.png' %}" alt="GitHub">
+               
+            </a>
+            </li>
+            <li>
+               
+                <a href="https://www.instagram.com/davipaiao.c/" target="_blank" rel="noopener noreferrer">
+                <img class="social" src="{% static 'images/instagram.png' %}" alt="Instagram">
+               
+            </a>    
+            </li>
+            <li>
+                
+                <a href="https://www.linkedin.com/in/davi-correa-paiao-902032193/" target="_blank" rel="noopener noreferrer">
+                <img class="social" src="{% static 'images/linkedin.png' %}" alt="LinkedIn">
+              
+            </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+   
+    <br>
+    
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card card-body">
+          <h4>My Experiences</h4>
+         
+          <hr />
+          
+          <p>
+        I worked in customer service at a major music events company. I was responsible for helping guests, solving issues in real time, and making sure the audience had a great experience. This helped me develop patience, confidence, and fast problem-solving skills.
+      </p>
+      <p>
+        I was also in charge of setting up and managing live streams during events, learning how to handle audiovisual tools, stream software, and keep everything running smoothly during high-pressure moments.
+      </p>
+      <p>
+        Later, I joined a game development group based in the US, where we worked on multiplayer games using Lua. It was a great opportunity to work with developers from other countries, improve my communication, and take part in collaborative projects, both in coding and design.
+      </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card card-body">
+          <h4>Skills</h4>
+          <hr />
+          <div class="mb-3">
+            <label>Python</label>
+            <div class="skill-bar">
+              <span class="skill-level filled"></span>
+              <span class="skill-level filled"></span>
+              <span class="skill-level filled"></span>
+              <span class="skill-level empty"></span>
+              <span class="skill-level empty"></span>
+            </div>
+          </div>
+
+          <div class="mb-3">
+
+            <label>Java</label>
+            <div class="skill-bar">
+              <span class="skill-level filled"></span>
+              <span class="skill-level filled"></span>
+              <span class="skill-level empty"></span>
+              <span class="skill-level empty"></span>
+              <span class="skill-level empty"></span>
+            </div>
+          </div>
+
+          <div class="mb-3">
+
+            <label>React</label>
+            <div class="skill-bar">
+              <span class="skill-level filled"></span>
+              <span class="skill-level filled"></span>
+              <span class="skill-level filled"></span>
+              <span class="skill-level empty"></span>
+              <span class="skill-level empty"></span>
+            </div>
+
+          </div>
+
+          <div class="mb-3">
+
+            <label>Lua</label>
+            <div class="skill-bar">
+              <span class="skill-level filled"></span>
+              <span class="skill-level filled"></span>
+              <span class="skill-level filled"></span>
+              <span class="skill-level filled"></span>
+              <span class="skill-level empty"></span>
+            </div>
+          </div>
+
+          <div class="mb-3">
+
+            <label>English</label>
+
+            <div class="skill-bar">
+              <span class="skill-level filled"></span>
+              <span class="skill-level filled"></span>
+              <span class="skill-level filled"></span>
+              <span class="skill-level filled"></span>
+              <span class="skill-level filled"></span>
+            </div>
+          </div>
+
+          <div class="mb-3">
+
+            <label>C++</label>
+
+            <div class="skill-bar">
+              <span class="skill-level filled"></span>
+              <span class="skill-level filled"></span>
+              <span class="skill-level empty"></span>
+              <span class="skill-level empty"></span>
+              <span class="skill-level empty"></span>
+            </div>
+          </div>
+
+          <div class="mb-3">
+
+            <label>Django</label>
+
+            <div class="skill-bar">
+
+              <span class="skill-level filled"></span>
+              <span class="skill-level filled"></span>
+              <span class="skill-level filled"></span>
+              <span class="skill-level empty"></span>
+              <span class="skill-level empty"></span>
+            </div>
+          </div>
+
+          <div class="mb-3">
+
+            <label>SQL</label>
+            <div class="skill-bar">
+
+              <span class="skill-level filled"> </span>
+              <span class="skill-level filled"></span>
+              <span class="skill-level empty"></span>
+              <span class="skill-level empty"></span>
+              <span class="skill-level empty"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
